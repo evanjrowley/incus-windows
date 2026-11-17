@@ -4,7 +4,7 @@
 10e-20h2 https://software-static.download.prss.microsoft.com/pr/download/19042.631.201119-0144.20h2_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
 11p https://archive.org/download/windows-11-client-x-64-en-us-26300-9457_20261031/Windows11_Client_x64_en-us_26300_9457.iso
 10p https://archive.org/download/Win10_22H2_English_x64v1/Win10_22H2_English_x64v1.iso
-2008 https://archive.org/download/en_windows_server_2008_r2_with_sp1_x64_dvd_617601_202006/en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso
+2008r2 https://archive.org/download/en_windows_server_2008_r2_with_sp1_x64_dvd_617601_202006/en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso
 2012r2 https://archive.org/download/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766_202006/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766.iso
 2016 https://archive.org/download/en_windows_server_2016_vl_x64_dvd_11636701/en_windows_server_2016_vl_x64_dvd_11636701.iso
 2019 https://archive.org/download/en-us_windows_server_2019_x64_dvd_f9475476_202603/en-us_windows_server_2019_x64_dvd_f9475476.iso
