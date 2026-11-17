@@ -38,6 +38,7 @@
           curl
           python3 # tools/click.py, tools/rmnics.py (stdlib only)
           xorriso # ISO extraction and repacking
+          wimlib # wiminfo: check unattend /IMAGE/NAME against install.wim
         ];
 
         # incus deliberately comes from the host, not from here; see the
