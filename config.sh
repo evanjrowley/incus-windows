@@ -21,3 +21,14 @@ if [ -z "${VIRTIO_VERSION:-}" ]; then
 	unset _iv
 	unset _min
 fi
+
+# 0.1.285-1 has a 2k16 viostor INF whose driver sections declare
+# NTamd64.10.0 only, so WinPE finds no disk on the 2012 target (6.3) and
+# the unattended install fails with "could not apply DiskConfiguration".
+# 0.1.248-1 still has 6.3 support.
+case "${VERSION:-}" in
+2012)
+	VIRTIO_VERSION="${VIRTIO_VERSION_NOVSOCK}"
+	VIRTIO_SHA256="${VIRTIO_SHA256_NOVSOCK}"
+	;;
+esac
